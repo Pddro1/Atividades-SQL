@@ -20,3 +20,5 @@ select * from tb_colaboradores where salario > 2000.00;
 
 select * from tb_colaboradores where salario < 2000.00;
 
+update tb_colaboradores set salario=3400.00 where id=5;
+

@@ -17,3 +17,5 @@ insert into tb_produtos(produto, qtnd, tipo, preco)values("Fios de Cobre", 3000,
 select * from tb_produtos where preco > 500.00;
 
 select * from tb_produtos where preco < 500.00;
+
+update tb_produtos set preco=4320.00 where id=6;
